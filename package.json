@@ -1,0 +1,17 @@
+{
+  "name": "media-streaming-report-pdf",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "report": "node --experimental-strip-types src/media_report.ts",
+    "test": "node --experimental-strip-types src/media_report.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
